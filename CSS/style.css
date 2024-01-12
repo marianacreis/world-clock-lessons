@@ -1,1 +1,69 @@
+body {
+  background-color: #f9f7fd;
+  font-family: sans-serif;
+}
 
+.container {
+  max-width: 500px;
+  margin: 60px auto 30px;
+  background-color: white;
+  padding: 10px 30px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 9px 7px 29px 0px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.cities-selection {
+  display: block;
+  margin: 0 auto 30px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.cities {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+.date {
+  font-size: 15px;
+  color: rgb(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.time {
+  margin: auto 0;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.AM-PM {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer a:hover {
+  transition: all 150ms;
+  color: rgba(0, 0, 0, 0.512);
+}

@@ -7,28 +7,40 @@
     <title>World Clock</title>
   </head>
   <body>
-    <h1>WORLD CLOCK</h1>
-    <select>
-      <option value="">Select a city</option>
-      <option value="">Your Location</option>
-      <option value="">Lisbon</option>
-      <option value="">London</option>
-      <option value="">New York</option>
-    </select>
+    <div class="container">
+      <h1>WORLD CLOCK</h1>
+      <select class="cities-selection">
+        <option value="">Select a city</option>
+        <option value="">Lisbon</option>
+        <option value="">Sydney</option>
+        <option value="">New York</option>
+      </select>
 
-    <div class="city">
-      <h2>Porto</h2>
-      <div class="date">January 11th 2023</div>
-      <div class="time">1:48:15 AM</div>
-    </div>
-    <div class="city">
-      <h2>Los Angeles</h2>
-      <div class="date">January 11th 2023</div>
-      <div class="time">1:48:15 AM</div>
+      <div class="cities">
+        <div>
+          <h2>Porto 🇵🇹</h2>
+          <div class="date">January 11th 2023</div>
+        </div>
+        <div class="time">1:48:15 <span class="AM-PM">AM</span></div>
+      </div>
+      <div class="cities">
+        <div>
+          <h2>Los Angeles 🇺🇸</h2>
+          <div class="date">January 11th 2023</div>
+        </div>
+        <div class="time">1:48:15 <span class="AM-PM">AM</span></div>
+      </div>
     </div>
     <footer>
-      This project was coded by <a href="">Mariana Reis</a> and is
-      <a href=""> open sourced on GitHub</a>
+      This project was coded by
+      <a href="https://github.com/marianacreis" target="_blank">Mariana Reis</a>
+      and is
+      <a
+        href="https://github.com/marianacreis/world-clock-project"
+        target="_blank"
+      >
+        open sourced on GitHub</a
+      >
     </footer>
   </body>
   <script src="Javascript/index.js"></script>
