@@ -32,13 +32,17 @@ h1 {
   border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
 }
 
+.cities:last-child {
+  border: none;
+}
+
 h2 {
   margin-bottom: 8px;
 }
 
 .date {
   font-size: 15px;
-  color: rgb(0, 0, 0, 0.4);
+  opacity: 0.4;
   margin-bottom: 20px;
 }
 
@@ -48,7 +52,7 @@ h2 {
   font-size: 35px;
 }
 
-.AM-PM {
+.time small {
   font-size: 18px;
 }
 
@@ -65,5 +69,5 @@ footer a {
 
 footer a:hover {
   transition: all 150ms;
-  color: rgba(0, 0, 0, 0.512);
+  opacity: 0.4;
 }
